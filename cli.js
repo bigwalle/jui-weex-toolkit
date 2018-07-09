@@ -82,7 +82,7 @@ function displayReleases() {
 var args = yargs
     .command({
         command: "create <name> [version]",
-        desc: "Create a bui-weex project. Default to use latest version of template.",
+        desc: "Create a jui-weex project. Default to use latest version of template.",
         builder: (yargs) => {
             yargs.option('template', {
                 alias: 't',
